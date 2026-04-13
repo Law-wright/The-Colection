@@ -1666,6 +1666,18 @@ body::before {
   color: var(--text);
 }
 
+a.contact-email-link {
+  color: var(--gold);
+  text-decoration: underline;
+  text-decoration-color: var(--border-gold);
+  text-underline-offset: 3px;
+  word-break: break-word;
+}
+a.contact-email-link:hover {
+  color: var(--gold-light);
+  text-decoration-color: var(--gold);
+}
+
 /* Form */
 .contact-form-wrap {
   background: var(--surface);
